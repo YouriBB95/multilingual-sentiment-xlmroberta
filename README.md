@@ -24,7 +24,13 @@ Build a multilingual sentiment classifier that generalizes across languages usin
 - **Base model**: `xlm-roberta-base` (cross-lingual pretrained transformer by Facebook AI)
 - Fine-tuned for **binary classification**
 - Tokenized with Hugging Face `XLMRobertaTokenizer`
+---
 
+### 📈 Confusion Matrix
+
+![Confusion Matrix](confusion_matrix.png)
+
+*552 True Negatives, 490 True Positives — solid separation across both classes.*
 ---
 
 ## 🏋️‍♀️ Training
@@ -49,8 +55,3 @@ TrainOutput(
 
 <img width="539" height="455" alt="download" src="https://github.com/user-attachments/assets/0c895b26-764a-4814-a594-2497b678952e" />
 
-### 📈 Confusion Matrix
-
-![Confusion Matrix](confusion_matrix.png)
-
-*552 True Negatives, 490 True Positives — solid separation across both classes.*
