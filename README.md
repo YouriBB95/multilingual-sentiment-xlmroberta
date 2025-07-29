@@ -48,3 +48,9 @@ TrainOutput(
 
 
 <img width="539" height="455" alt="download" src="https://github.com/user-attachments/assets/0c895b26-764a-4814-a594-2497b678952e" />
+
+### 📈 Confusion Matrix
+
+![Confusion Matrix](confusion_matrix.png)
+
+*552 True Negatives, 490 True Positives — solid separation across both classes.*
